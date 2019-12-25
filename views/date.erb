@@ -2,7 +2,7 @@
 <html>
   <body>
     <h1>Today</h1>
-    <% date = datetime_select
+    <% date = Date.today.strftime("%A, %B %d, %Y")
     <p><%= "The date is" + date%></p>
   </body>
 </html>
